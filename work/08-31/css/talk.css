@@ -1,0 +1,49 @@
+#news{
+    height: 40px;
+    flex: 1;
+    margin-left: 5px;
+    line-height: 40px;
+    color: #D3D3D3;
+    font-size: 20px;
+}
+.talkman{
+    height: 60px;
+    width: 100%;
+    /*background-color: #e77b71;*/
+    display: flex;
+}
+.man-image{
+    height: 60px;
+    width: 60px;
+}
+.man-news{
+    height: 60px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+.man-up{
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
+.up-left{
+    height: 30px;
+    flex: 1;
+    line-height: 30px;
+    font-size: 20px;
+}
+.up-right{
+    height: 30px;
+  width: 80px;
+    line-height: 30px;
+    color: grey;
+    font-size: 15px;
+}
+.man-down{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: grey;
+    font-size: 15px;
+}

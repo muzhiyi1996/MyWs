@@ -1,0 +1,75 @@
+@keyframes switch {
+    0%,5.5%{
+        margin-left: 0px;
+    }
+    7%,12.5%{
+        margin-left: -380px;
+    }
+
+    14%,19.5%{
+        margin-left: -760px;
+    }
+
+    21%,26.5%{
+        margin-left: -1140px;
+    }
+
+    28%,33.5%{
+        margin-left: -1520px;
+    }
+    35%,40.5%{
+        margin-left: -1900px;
+    }
+    42%,47.5%{
+        margin-left: -2280px;
+    }
+
+    49%,54.5%{
+        margin-left: -2280px;
+    }
+
+    56%,61.5%{
+        margin-left: -1900px;
+    }
+
+    63%,68.5%{
+        margin-left: -1520px;
+    }
+    70%,75.5%{
+        margin-left: -1140px;
+    }
+    77%,82.5%{
+        margin-left: -760px;
+    }
+    84%,90.5%{
+        margin-left: -380px;
+    }92%,97.5%{
+         margin-left: 0px;
+     }
+
+}
+
+#container{
+
+    height: 150px;
+    overflow: hidden;
+    background-image: url("../image/back1.png");
+    background-repeat:round;
+    background-size: contain;
+
+}
+
+#photograph{
+    width: 3040px;
+    animation: switch 30s linear infinite;
+}
+
+.photo{
+    width: 360px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+

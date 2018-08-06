@@ -1,0 +1,54 @@
+#end{
+    width: 100%;
+    height: 50px;
+    /*background-color: ;*/
+    display: flex;
+
+}
+a:link{
+    color: #363636;
+    text-decoration: none;
+}
+a:visited{
+    color: #363636;
+}
+
+#end-left{
+    height: 50px;
+    flex: 7;
+    display: flex;
+}
+#end-image{
+    height: 40px;
+    width:40px;
+    border-radius: 4px;
+    margin: 5px 5px 5px 5px;
+    overflow: hidden;
+
+}
+#end-font{
+    margin: 3px 0px 3px 0px;
+    opacity: .7;
+}
+#end-font div p{
+    line-height:20px ;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+
+
+}
+#end-right{
+    height: 50px;
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+#end-right div{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    margin-right: 5px;
+    margin-left:5px ;
+}

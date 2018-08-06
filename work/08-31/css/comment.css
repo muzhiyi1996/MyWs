@@ -1,0 +1,25 @@
+.border{
+    border:0.1px solid red;
+
+}
+*{
+    font-family: 楷体;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 楷体;
+}
+.xy-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x-center{
+    justify-content: center;
+}
+.y-center{
+    display: flex;
+    align-items: center;
+}
+::-webkit-scrollbar{display:none}

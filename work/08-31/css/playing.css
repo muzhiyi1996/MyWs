@@ -1,0 +1,172 @@
+#back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    background-image: url(../image/playing/x.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+#time{
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    /*background-color: red;*/
+}
+
+
+#star{
+    height: 60px;
+    width: 100%;
+    /*background-color: orangered;*/
+    display: flex;
+    flex-flow: row;
+}
+#star-1{
+    height: 60px;
+    flex: 1;
+    display: flex;
+}
+.star-font{
+    height: 30px;
+    line-height: 30px;
+    color: #fafafa;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.star-2{
+    height: 60px;
+    width: 60px;
+    display: flex;
+
+}
+
+
+#sky{
+    width: 100%;
+    flex: 1;
+    overflow:scroll;
+/*background-color: yellow;*/
+}
+#sky-border{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+
+    background-image: url(../image/playing/de.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sky-image{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+   background-image: url(../image/playing/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   animation: p 20s linear infinite;
+}
+@keyframes p {
+    0%{
+
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+#heart{
+    width: 100%;
+    height: 60px;
+    /*background-color: green;*/
+    display: flex;
+}
+.heart-six{
+    height: 60px;
+    flex: 1;
+
+}
+
+
+#play{
+    width: 100%;
+    height: 40px;
+    /*background-color: blue;*/
+    display: flex;
+}
+.play-time{
+    height: 40px;
+    width: 60px;
+    color: lightgrey;
+
+}
+#play-box{
+    height: 40px;
+    flex: 1;
+}
+#play-box-center{
+    height: 2px;
+    width: 100%;
+    background-color: #fafafa;
+    position: relative;
+}
+#center-play{
+    height: 2px;
+    width: 100%;
+    background-color: orangered;
+}
+#center-ball{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+
+    background-color: #fafafa;
+}
+@keyframes cen {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.ce{
+    animation: cen 180s ease ;
+}
+
+
+#stop{
+    height: 100px;
+    width: 100%;
+    /*background-color: purple;*/
+    display: flex;
+}
+.stop-5{
+    height: 100px;
+    flex: 1;
+}
